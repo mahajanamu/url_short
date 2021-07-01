@@ -1,0 +1,52 @@
+So far 
+1 - using pipenv instal created virtual env
+2 - installed flask in virtual environment
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+3-In Windows use "set" instead of "export"
+
+HOW TO ACCESS venv
+1 - go to location 
+2 - type "pipenv shell"
+3 - set FLASK_APP="File name"
+4 - type in "flask run"
+
+Production Environment 
+- where we have to clt+c then again type in flask run and see the changes
+Development environment 
+- where any changes we do will be directly seen in site
+
+settings for devolpement Environment
+type in command line "set FLASK_ENV=development"
+
+app.py is default FLASK_APP for flask environment.
+
+ABOUT TEMPLATES 
+-- Templates are use to import CSS and HTML codes 
+-- render_template("HTML/CSS file location") is used to include that particular file
+-- WHAT IS JINJA
+---- JINJA is type of template 
+---- for example refer py charm code havening a line " return render_template('home_page.html', name='Amey') " 
+
+USING FORMS 
+-- In the course we are studying URL shortner so we need two inputs and we'll be taking those using FORMS
+-- Refer to code written to help you understand better
+ 
+GET & POST reqeusts
+-- import request using Flask
+-- request.args['name_you_want']
+-- get and post is used to authenticate user if 
+
+SAVING TO JSON FILE
+-- information we have has to be shared to the file
+-- in ths course we have used JSON file to store the data
+
+ADDING FILES and Changing FILES URL
+-- Create new form for uploading files 
+-- then using code written (Check pycharm)
+
+ADDING COOKIES and SESSIONS 
+-- What is cookies -> it's a way to store some information into a user's browser, it uses it as a key value store so that whenever I come back I can get that information.
+
+JSONIFY
+-- Means using jsonify to create API
